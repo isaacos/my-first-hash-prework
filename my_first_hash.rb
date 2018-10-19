@@ -1,5 +1,7 @@
 def my_hash
- my_hash = 
+ my_hash = Hash.new 
+ my_hash['friend'] = "Josh"
+ my_hash['girlfriend'] =  'Katy'
 
   
 end
